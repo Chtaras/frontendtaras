@@ -1,0 +1,25 @@
+*{
+    margin: 0;
+    padding: 0;
+    background-color: #ffff;
+}
+p {
+    display: flex;
+    flex-wrap: wrap;
+    width: 350;
+    height: 350;
+    margin: 25px;
+    padding: 5px;
+    box-sizing:content-box;
+    justify-content:left;
+    background-color: #ffff0041;
+    border: 2px solid red;
+    
+}
+span{
+    display: inline;
+    margin: 0;
+
+    padding: 3px;
+    border: 1.5px solid blue;
+}
