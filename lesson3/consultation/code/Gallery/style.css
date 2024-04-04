@@ -26,7 +26,7 @@ main{
     background-color: orange;
     background-position: center;
     background-size: cover;
-    box-shadow: 0 0 10px 1px rgba(0, 0, 0, 0.358);
+    box-shadow: 0 0 10px 1px #d72b2b5b;
     border-radius: 20px;
     transition: all 0.5s ease;
 }
