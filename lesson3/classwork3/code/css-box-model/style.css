@@ -1,0 +1,50 @@
+.red-box {
+    background-color: red;
+    width: 250px;
+    height: 250px;
+    border: 20px solid blue;
+    padding: 30px;
+    margin: 50px;
+}
+.blue-box {
+    width: 200px;
+    height: 200px;
+    background-color: blue;
+    margin-left: 50px;
+    margin-right: 40px;
+    margin-top: 30px;
+    margin-bottom: 20px;
+
+}
+.orange-box {
+    width: 150px;
+    height: 50px;
+    background-color: orange;
+    /* верх право низ лево . по часовой стрелке действует и для margen */
+    padding: 50px 40px 30px 20px;
+}
+.green-box {
+    width: 200px;
+    height: 200px;
+    background-color: green;
+    /*верх лево - право низ*/
+    padding: 40px 30px 10px;
+}
+.purle-box {
+    width: 200px;
+    height: 200px; background-color: purple;
+    /*верх низ . лево право*/
+    padding: 20px 50px;
+}
+.rounded-corners {
+    border-radius: 20px;
+}
+.asymetric-corners {
+border-radius: 60px 30px 0 10px;
+}
+.black-box {
+width: 200px;
+height: 200px;
+background-color: black;
+border-radius: 50%;
+}
