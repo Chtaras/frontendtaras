@@ -1,0 +1,32 @@
+.container1{
+    background-color: lightblue;
+display: flex;
+padding: 20px;
+gap: 20px;
+/* display: flex соообщает што контейнер гибкий и елементи внутри буду распологатса по правилам flexbox; 
+gap - растояние между елементами
+justify-content - управляет расположением елементов по основной оси. основная ось не обязательно горизонтальная*/
+justify-content: space-between;
+flex-direction: row;
+}
+.box{
+    width: 250px;
+    height: 350px;
+}
+
+.red{
+    background-color: red;
+}
+
+.container2{
+    background-color: lightcoral;
+    display: flex;
+    gap: 20px;  
+    padding: 10px;  
+    justify-content: flex-end;
+}
+
+.green{
+    background-color: green;
+    
+}
